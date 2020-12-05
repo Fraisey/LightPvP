@@ -1,0 +1,205 @@
+name: Core
+main: net.lightpvp.java.Core
+version: 2.0.2
+depend: [iTag, PermissionsEx, BarAPI, WorldGuard, ProtocolLib]
+loadbefore: [Core, Citizens]
+
+commands:
+  peacestop:
+  setrank:
+    permission: core.setrank
+  broadcast:
+    aliases: [bc]
+    permission: core.broadcast
+  fly:
+    permission: core.fly
+  peacestop:
+    permission: core.restart
+  forcestart:
+    permission: core.forcestart
+  ip:
+    permission: core.ip
+  aexec:
+    permission: core.aexec
+  invsee:
+    permission: core.invsee
+  code:
+    permission: core.code
+    aliases: [codes]
+  admin:
+    permission: core.admin
+  tp:
+    permission: core.tp
+  mute:
+    permission: core.mute
+  unmute:
+    permission: core.mute
+  report:
+    permission: core.report
+  ban:
+    permission: core.ban
+  tempban:
+    permission: core.ban
+  unban:
+    permission: core.ban
+  kick:
+    permission: core.kick
+  spy:
+    permission: core.spy
+  records:
+    permission: core.records
+  sc:
+    permission: core.staffchat
+  addcoins:
+    permission: core.addcoins
+  cc:
+    permission: core.clearchat
+  crate:
+    permission: core.crate
+  ff:
+    permission: core.anticheat
+  clear:
+    permission: core.clearinv
+  
+  who:
+  players:
+    permission: core.stats
+  pay:
+  joinmessage:
+    permission: core.joinmessage
+    aliases: [jm]
+  trail:
+    permission: core.trail
+  
+  stats:  
+  rules:
+  msg:
+    aliases: [tell, w, pm]
+  r:
+    aliases: [reply]
+  spawn:
+  kits:
+    aliases: [kitlist]
+  ping:
+    aliases: [lag]
+  join:
+  leave:
+  1v1:
+  accept:
+  redeem:
+  leaderboard:
+  report:
+  vote:
+  warp:
+  ignore:
+  kit:
+  whatsnew:
+  perks:
+  invitetrade:
+    aliases: [it, trade]
+  accepttrade:
+    aliases: [at]
+
+
+permissions:
+  kit.*:
+    children:
+      kit.pvp: true
+      kit.stomper: true
+      kit.switcher: true
+      kit.longshot: true
+      kit.fisherman: true
+      kit.poseidon: true
+      kit.witch: true
+      kit.shockwave: true
+      kit.rocket: true
+      kit.lasso: true
+      kit.sonic: true
+      kit.viper: true
+      kit.joker: true
+      kit.soldier: true
+      kit.acid: true
+      kit.ditto: true
+      kit.timebomb: true
+      kit.separator: true
+      kit.revealer: true
+      kit.titan: true
+      kit.summoner: true
+      kit.resurrector: true
+      kit.kangaroo: true
+      kit.teleporter: true
+      kit.hulkkit: true
+  event.*:
+    children:
+      event.brackets: true
+      event.cannondodge: true
+      event.football: true
+      event.lms: true
+      event.oitc: true
+      event.oma: true
+      event.redrover: true
+      event.speedrun: true
+  core.hashtag:
+    description: ''
+  core.stop:
+    description: ''
+  core.doublecoins:
+    description: ''
+  core.broadcast:
+    description: ''
+  core.fly:
+    description: ''
+  core.ip:
+    description: ''
+  core.aexec:
+    description: ''
+  core.invsee:
+    description: ''
+  core.yellow:
+    description: ''
+  core.bypass:
+    description: ''
+  core.addcoins:
+    description: ''
+  core.code:
+    description: ''
+  core.admin:
+    description: ''
+  core.staffchat:
+    description: ''
+  core.clearchat:
+    description: ''
+  core.report:
+    description: ''
+  core.records:
+    description: ''
+  core.tp:
+    description: ''
+  core.mute:
+    description: ''
+  core.ban:
+    description: ''
+  core.kick:
+    description: ''
+  core.restart:
+    description: ''
+  core.stats:
+    description: ''
+  core.event:
+    description: ''
+  core.forcestart:
+    description: ''
+  core.spy:
+    description: ''
+  core.pay:
+    description: ''
+  core.spawnbuttons:
+    description: ''
+  core.bypassfly:
+    description: ''
+  core.joinmessage:
+    description: ''
+  core.anticheat:
+    description: ''
+  core.casinopro:
+    description: ''

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Libraries/PermissionsEx.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/BarAPI.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/iTag.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/Buycraft.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/worldedit-bukkit-6.1(2).jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/worldguard-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries/spigot.jar"/>
+	<classpathentry kind="lib" path="C:/Libraries2/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
